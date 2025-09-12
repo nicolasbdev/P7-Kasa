@@ -1,0 +1,121 @@
+.MenuDropDown {
+    display: flex;
+    max-width: 1440px;
+    gap: 74px;
+    
+    button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 52px;
+        border-radius: 10px;
+        background-color: #FF6060;
+        color: white;
+        border: none;
+        
+        h2 {
+            padding-left: 10px;
+        }
+
+        i {
+            font-size: 20px;
+            margin-right: 18px;
+            transition: transform 0.2s ease-in-out; 
+            cursor: pointer;
+        }
+}
+      
+    .dropdown-content {
+        font-size: 18px;
+        font-weight: 500;
+        width: 100%;
+        text-align: left;
+        background-color: #F6F6F6;
+        margin-top: -52px;  
+        opacity: 0;
+        z-index: -1;
+        transition: 0.5s;
+        overflow: inherit;
+
+        ul {
+            list-style: none;
+            padding-left: 20px;
+        }
+    
+        p {
+            padding-left: 15px;
+            padding-right: 15px;
+            height: 50px;
+            
+        }
+    }
+}
+
+.dropdown-content.show {
+    transition: 0.5s;
+    opacity: 1;
+    margin-top: 0;
+    margin-bottom: 31px;
+    
+    p {
+       height: 100%;
+    }
+  }
+
+  .rotate {
+    transform: rotate(180deg);
+  }
+
+@media (max-width: 768px) {
+    .MenuDropDown {
+        width: 100%;
+        margin: 0;
+        margin-top: -10px;
+        flex-direction: column;
+        gap: 0;
+
+        button {
+            height: 30px;
+            h2{
+                font-size: 13px;
+            }
+        }
+        
+        .dropdown-content{
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .MenuDropDown {
+        gap: 0;
+    }
+}
+.dropDown {
+    position: relative;
+    bottom: 100px;
+    margin-bottom: -120px;
+    @media (max-width: 768px) {
+        bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+     @media (max-width: 768px) {
+        width: 100%;
+    }
+}
+    
+.title-style-about {
+    font-size: 24px;
+    @media (max-width: 768px) {
+        font-size: 13px;
+    }
+}
+    

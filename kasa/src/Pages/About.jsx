@@ -1,6 +1,6 @@
 import Banner from '../components/Banner';
 import img from '../assets/Images/banner-about.png'
-import Dropdown from './components/Dropdown';
+import Dropdown from '../components/Dropdown';
 import Info from'../data/apropos.json'
 import PropTypes from "prop-types";
 
