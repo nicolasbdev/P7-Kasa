@@ -1,0 +1,40 @@
+.host {
+    position: relative;
+    bottom: 25px;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    gap: 20px;
+    @media (min-width: 768px){
+        bottom: 170px;
+        right: 10px;
+
+    }
+
+
+    .host-name {
+        display: flex;
+        width: 40px;
+        text-align: end;
+        color: $primary-color;
+        font-size: 12px;
+        @media (min-width: 768px){
+            font-size: 18px;
+            align-items: center;
+            width: 88px;
+        }
+    }
+    
+    img {
+        width: 36px;
+        height: 36px;
+        border-radius: 25px;
+        @media (min-width: 768px){
+            width: 64px;
+            height: 64px;
+            border-radius: 50px;
+        }
+    }
+}
+    
+

@@ -1,0 +1,28 @@
+.rating {
+
+    @media (min-width: 768px){
+            position: relative;
+            display: flex;
+            justify-content: flex-end;
+            right: 10px;
+            bottom: 60px;
+        }
+
+    .stars {
+        display: flex;
+        gap: 5px;
+        margin: 25px 0 0 0;
+        
+
+        i {
+            font-size: 14px;
+            color: $primary-color;
+            @media (min-width: 768px){
+                font-size: 18px;
+            }
+            
+        }
+
+        
+    }
+}

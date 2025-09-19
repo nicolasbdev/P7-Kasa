@@ -1,0 +1,27 @@
+.tags {
+    margin: 20px 20px 0 0;
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        list-style: none;
+        font-size: 10px;
+        gap: 10px;
+        @media (min-width: 768px){
+            font-size: 14px;
+        }
+        
+    }
+
+    li {
+        background-color: #FF6060;
+        color: white;
+        font-weight: 700;
+        padding: 3px 15px 3px 15px;
+        border-radius: 10px;
+
+
+    }
+    
+}
