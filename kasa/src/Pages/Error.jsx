@@ -1,5 +1,7 @@
 import {Link} from "react-router-dom";
 
+// Code React de la page Error.jsx
+
 function Error () {
     return (
         <div className="error">

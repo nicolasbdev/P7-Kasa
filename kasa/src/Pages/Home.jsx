@@ -2,6 +2,8 @@ import Banner from "../components/Banner";
 import BannerHome from "../assets/Images/banner-home.png";
 import CardGallery from "../Components/CardGallery";
 
+//Définition de page Home.jsx en appelant les composants Banner et CardGallery
+
 function Home() {
     return (
         <div className='home'>

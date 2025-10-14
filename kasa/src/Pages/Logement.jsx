@@ -9,7 +9,7 @@ import DropDown from "../components/Dropdown";
 import { useEffect } from "react";
 
 
-
+//Définition de la page Logement.jsx
 
 function Logement () {
     const { id } = useParams();
@@ -28,11 +28,13 @@ function Logement () {
 
     return (
         <div className="container-logement" >
+            {/* Ci-dessous appel de plusieurs composants afin de permettre la modularité de nos pages Logements. */}
             <Carousel />
             <LocationLogement />  
             <Tags />
             <Rating />
             <Host />
+            {/* Ci-dessous réutlisation du composant Drowdown (il était déjà utilisé sur la page About.jsx) */}
             <div className="dropDown">
                 <div className="MenuDropDown">
                     <div className="container">

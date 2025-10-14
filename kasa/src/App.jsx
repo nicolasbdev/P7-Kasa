@@ -27,4 +27,5 @@ export default App;
 Import des différentes pages jsx pour pouvoir les appeler sur cette page App. Le JSX est la syntaxe et l'extension fichier propre à React.
 Ajout du Browserouter pour structurer nos pages jsx.
 Ajout des composants Header et Footer (qui ne sont pas modulables).
-Création des routes pour ajouter les pages (Home, Error, About et Logement) qui vont enrichir notre site et sa navigation. */
+Création des routes pour ajouter les pages (Home, Error, About et Logement) qui vont enrichir notre site et sa navigation.
+Toute adresse URL non correcte renvoie à la page Error.jsx */
