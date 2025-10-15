@@ -12,3 +12,5 @@ function Footer(){
 }
 
 export default Footer;
+
+// Ci-dessus définition du composant Footer

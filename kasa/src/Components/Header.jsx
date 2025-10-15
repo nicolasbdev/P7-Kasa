@@ -22,3 +22,5 @@ function Header() {
 }
 
 export default Header
+
+// Ci-dessus définition du composant Footer

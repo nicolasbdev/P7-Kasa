@@ -28,3 +28,5 @@ import PropTypes from "prop-types";
   </>;
 }
 export default Dropdown;
+
+// Ci-dessous définition des fonctionnalités du Dropdown (chevron descendant et montant)
