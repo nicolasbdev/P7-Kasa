@@ -5,6 +5,8 @@ function Tags() {
     const { id } = useParams();
     const tag = tagData.find ((tags) => tags.id === id);
     
+
+    {/* Ci-dessous définition des tags sous forme de liste. Ils appraissent les uns à la suite des autres */}
     return (
         <div className="tags">
             {tag.tags.length > 0 && (

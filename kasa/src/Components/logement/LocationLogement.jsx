@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom';
 import locationData from '../../data/logements.json';
 
+
 function LocationLogement() {
     const { id } = useParams();
     const location = locationData.find ((location) => location.id === id);
@@ -14,3 +15,5 @@ function LocationLogement() {
 }
 
 export default LocationLogement;
+
+// Définition du composant LocationLogement qui apparaîtra sur la page Logement

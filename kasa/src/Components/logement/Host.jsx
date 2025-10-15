@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom';
 import HostData from '../../data/logements.json';
 
+
 function Host () {
     const { id } = useParams();
     const host = HostData.find ((host) => host.id === id);
@@ -16,3 +17,5 @@ function Host () {
     )
 }
 export default Host;
+
+// Définition du composant Host qui apparaîtra sur la page Logement
