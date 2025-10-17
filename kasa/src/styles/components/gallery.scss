@@ -20,6 +20,8 @@
        flex-direction: column;
        width: 28%;
        overflow: hidden;
+         
+
        
        
        img {
@@ -27,6 +29,7 @@
            height: 340px;
            object-fit: cover;
            border-radius: 10px;
+           background: linear-gradient(to bottom, #FFFFFF, #000000);
        }
        h3 {
         position: absolute;
