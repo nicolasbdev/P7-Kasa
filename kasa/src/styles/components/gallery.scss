@@ -21,16 +21,14 @@
        width: 28%;
        overflow: hidden;
          
-
-       
-       
        img {
            position: relative;
            height: 340px;
            object-fit: cover;
            border-radius: 10px;
-           background: linear-gradient(to bottom, #FFFFFF, #000000);
+           background: linear-gradient(to bottom, #FFFFFF, #000000); /* En attente */
        }
+
        h3 {
         position: absolute;
         color: white;
