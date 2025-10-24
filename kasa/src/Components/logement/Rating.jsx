@@ -5,7 +5,7 @@ import RatingData from '../../data/logements.json';
 function Rating() {
     const { id } = useParams();
     const rating = RatingData.find ((rating) => rating.id === id);
-    {/* Ci-dessous logo des étoiles qui apparaîtront en tant que composant Ratint */}
+    {/* Ci-dessous logo des étoiles qui apparaîtront en tant que composant Rating */}
     const starsFull = "fa-solid fa-star";
     const starsEmpty = "fa-solid fa-star";
     {/* Ci-dessous création de la fonction Rating */}
